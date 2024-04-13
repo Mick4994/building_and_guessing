@@ -1,3 +1,5 @@
+scoreboard objectives remove building_and_guessing_score
+function building_and_guessing:load
 function building_and_guessing:player_devicing
 scoreboard players set game building_and_guessing_gaming 1
 scoreboard players set @a building_and_guessing_score 0
