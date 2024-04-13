@@ -12,7 +12,7 @@ tag @a remove 11
 tag @a remove builded
 tag @a remove winner
 tag @a remove targeted
-tp @a 3 -60 54
+tp @a 15 22 16
 scoreboard players set game building_and_guessing_gaming 0
 kill @e[type=!player]
 setblock -16 -62 -46 redstone_block replace
