@@ -27,7 +27,7 @@ execute if score game building_and_guessing_gaming = 2 const if score ending bui
 #初始化,包括bossbar显示等
 execute if score game building_and_guessing_gaming = 0 const run gamemode adventure @a[tag=!op]
 execute if score game building_and_guessing_gaming = 0 const
-execute as @e[type=tnt] run data merge entity @s {Fuse:5}
+execute as @e[type=tnt] run data merge entity @s {fuse:5}
 execute unless score game building_and_guessing_gaming = 2 const run scoreboard players set ending building_and_guessing_delay 99
 execute unless score game building_and_guessing_gaming = 2 const run scoreboard players set playsound building_and_guessing_delay 99
 spawnpoint @a 15 22 16 0.0
