@@ -30,7 +30,7 @@ execute if score game building_and_guessing_gaming = 0 const
 execute as @e[type=tnt] run data merge entity @s {fuse:5}
 execute unless score game building_and_guessing_gaming = 2 const run scoreboard players set ending building_and_guessing_delay 99
 execute unless score game building_and_guessing_gaming = 2 const run scoreboard players set playsound building_and_guessing_delay 99
-spawnpoint @a 15 22 16 0.0
+spawnpoint @a 0 38 0 0.0
 #不让玩家随意走动
 execute as @a[tag=building,limit=1] run function building_and_guessing:trapping
 #维持天气

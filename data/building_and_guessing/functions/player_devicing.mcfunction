@@ -12,6 +12,8 @@ tag @a[tag=11] remove 11
 tag @a[tag=12] remove 12
 tag @a[tag=13] remove 13
 tag @a[tag=14] remove 14
+tag @a[tag=15] remove 15
+tag @a[tag=16] remove 16
 tag @r add 1
 tag @r[tag=!1] add 2
 tag @r[tag=!1,tag=!2] add 3
@@ -26,3 +28,5 @@ tag @r[tag=!1,tag=!2,tag=!3,tag=!4,tag=!5,tag=!6,tag=!7,tag=!8,tag=!9,tag=!10] a
 tag @r[tag=!1,tag=!2,tag=!3,tag=!4,tag=!5,tag=!6,tag=!7,tag=!8,tag=!9,tag=!10,tag=!11] add 12
 tag @r[tag=!1,tag=!2,tag=!3,tag=!4,tag=!5,tag=!6,tag=!7,tag=!8,tag=!9,tag=!10,tag=!11,tag=!12] add 13
 tag @r[tag=!1,tag=!2,tag=!3,tag=!4,tag=!5,tag=!6,tag=!7,tag=!8,tag=!9,tag=!10,tag=!11,tag=!12,tag=!13] add 14
+tag @r[tag=!1,tag=!2,tag=!3,tag=!4,tag=!5,tag=!6,tag=!7,tag=!8,tag=!9,tag=!10,tag=!11,tag=!12,tag=!13,tag=!14] add 15
+tag @r[tag=!1,tag=!2,tag=!3,tag=!4,tag=!5,tag=!6,tag=!7,tag=!8,tag=!9,tag=!10,tag=!11,tag=!12,tag=!13,tag=!14,tag=!15] add 16

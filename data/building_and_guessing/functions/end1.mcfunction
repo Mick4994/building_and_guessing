@@ -12,32 +12,26 @@ tag @a remove 11
 tag @a remove builded
 tag @a remove winner
 tag @a remove targeted
-tp @a 15 22 16
+tp @a 0 38 0
 
 clear @a
 
 scoreboard players set game building_and_guessing_gaming 0
 kill @e
-setblock -16 -62 -46 redstone_block replace
-setblock -47 -62 -46 redstone_block replace
-setblock -47 -62 -15 redstone_block replace
-setblock -47 -62 16 redstone_block replace
-setblock -16 -62 -15 redstone_block replace
-setblock -16 -62 16 redstone_block replace
-setblock 15 -62 -46 redstone_block replace
-setblock 15 -62 -15 redstone_block replace
-setblock 15 -62 16 redstone_block replace
-setblock 46 -62 -46 redstone_block replace
-setblock 46 -62 -15 redstone_block replace
 
-setblock -16 -62 -46 dirt replace
-setblock -47 -62 -46 dirt replace
-setblock -47 -62 -15 dirt replace
-setblock -47 -62 16 dirt replace
-setblock -16 -62 -15 dirt replace
-setblock -16 -62 16 dirt replace
-setblock 15 -62 -46 dirt replace
-setblock 15 -62 -15 dirt replace
-setblock 15 -62 16 dirt replace
-setblock 46 -62 -46 dirt replace
-setblock 46 -62 -15 dirt replace
+fill 56 31 56 34 0 34 air
+fill 56 31 26 34 0 4 air
+fill 56 31 -4 34 0 -26 air
+fill 56 31 -34 34 0 -56 air
+fill 26 31 56 4 0 34 air
+fill 26 31 26 4 0 4 air
+fill 26 31 -4 4 0 -26 air
+fill 26 31 -34 4 0 -56 air
+fill -4 31 56 -26 0 34 air
+fill -4 31 26 -26 0 4 air
+fill -4 31 -4 -26 0 -26 air
+fill -4 31 -34 -26 0 -56 air
+fill -34 31 56 -56 0 34 air
+fill -34 31 26 -56 0 4 air
+fill -34 31 -4 -56 0 -26 air
+fill -34 31 -34 -56 0 -56 air
